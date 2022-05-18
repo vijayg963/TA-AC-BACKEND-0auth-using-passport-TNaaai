@@ -11,9 +11,10 @@ require('dotenv').config();
 const app = express();
 
 require('./modules/passport');
-// establishing a connection between the server and the application
+
+// connect mongoose
 mongoose.connect('mongodb://localhost/thirdpartyauth', (err) => {
-  console.log(err ? err : 'Connection is made sucessfully');
+  console.log(err ? err : 'Conneted sucessfully');
 });
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
