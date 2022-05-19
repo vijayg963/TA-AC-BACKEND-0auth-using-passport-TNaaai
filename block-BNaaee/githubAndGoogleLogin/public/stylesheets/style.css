@@ -1,0 +1,19 @@
+body {
+  padding: 50px;
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+button {
+  padding: 5px 15px;
+  margin: 25px;
+  border: none;
+}
+button:hover {
+  border: 1px solid;
+}
