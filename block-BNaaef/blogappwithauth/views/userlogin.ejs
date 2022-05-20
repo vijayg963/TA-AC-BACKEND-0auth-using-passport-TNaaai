@@ -1,0 +1,20 @@
+<%- include('./partials/cdnlinks.ejs')%> <%-
+include('./partials/articleheader.ejs')%>
+<main>
+  <section class="flex justify-center items-center">
+    <div class="login-button-container px-10 py-10">
+      <a
+        href="/auth/google"
+        class="bg-blue-500 login-btn hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline py-3 px-2 bg-black-500 text-white"
+      >
+        login with the google
+      </a>
+      <a
+        href="/auth/github"
+        class="bg-blue-500 login-btn hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline py-3 px-2 bg-blue-700 text-white my-5"
+      >
+        login with the github
+      </a>
+    </div>
+  </section>
+</main>
