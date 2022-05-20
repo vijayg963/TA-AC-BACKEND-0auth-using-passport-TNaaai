@@ -1,0 +1,66 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Popppins', sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.article-form-container {
+  padding: 2% 9%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.form-container {
+  width: 70%;
+}
+.form-container form {
+  display: flex;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.form-container form input,
+textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #dddddd;
+  margin: 1rem 0;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+.form-row input {
+  flex: 0 1 48%;
+}
+
+.readmore {
+  padding: 0.8rem 1.6rem;
+  background-color: #7400b8;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.2rem;
+  border-radius: 2rem;
+}
+
+#submit-btn {
+  width: auto;
+  padding: 0.8rem 3.2rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.login-btn {
+  margin: 1rem;
+  font-size: 1.2rem;
+  padding: 5px 1rem;
+}
